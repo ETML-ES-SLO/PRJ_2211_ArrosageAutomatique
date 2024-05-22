@@ -1,0 +1,186 @@
+<mxfile host="app.diagrams.net" modified="2024-02-01T12:58:31.224Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="sesX0L9Gh3YUHRMYrbXf" version="23.1.0" type="device">
+  <diagram name="Page-1" id="c0qq4BICh7_O06tstS9B">
+    <mxGraphModel dx="1386" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9Auck91ubYmylJDAIgUF-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9Auck91ubYmylJDAIgUF-2" target="9Auck91ubYmylJDAIgUF-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Auck91ubYmylJDAIgUF-2" value="POWER ON" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Auck91ubYmylJDAIgUF-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9Auck91ubYmylJDAIgUF-4" target="9Auck91ubYmylJDAIgUF-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Auck91ubYmylJDAIgUF-4" value="mesure de quantite d&#39;eau" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Auck91ubYmylJDAIgUF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9Auck91ubYmylJDAIgUF-6" target="9Auck91ubYmylJDAIgUF-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Auck91ubYmylJDAIgUF-11" value="NON" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9Auck91ubYmylJDAIgUF-10" vertex="1" connectable="0">
+          <mxGeometry x="-0.0017" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2topo-qdoDveBcOhk3U-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Auck91ubYmylJDAIgUF-6" target="O2topo-qdoDveBcOhk3U-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O2topo-qdoDveBcOhk3U-16" value="OUI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="O2topo-qdoDveBcOhk3U-15">
+          <mxGeometry x="-0.1886" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Auck91ubYmylJDAIgUF-6" value="Quantité eau ok?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="280" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9Auck91ubYmylJDAIgUF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9Auck91ubYmylJDAIgUF-9" target="9Auck91ubYmylJDAIgUF-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Auck91ubYmylJDAIgUF-9" value="Affiche &quot;Manque d&#39;eau&quot; sur LCD,&amp;nbsp;&lt;br&gt;Alarme sur buzzer pendant 3s et&lt;br&gt;Clignotement led état&lt;br&gt;flag eau ok = 0" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="350" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9Auck91ubYmylJDAIgUF-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9Auck91ubYmylJDAIgUF-12" target="9Auck91ubYmylJDAIgUF-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Auck91ubYmylJDAIgUF-12" value="Mesure de taux d&#39;humidité des plantes" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="357.5" width="120" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="9Auck91ubYmylJDAIgUF-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9Auck91ubYmylJDAIgUF-17" target="9Auck91ubYmylJDAIgUF-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O2topo-qdoDveBcOhk3U-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9Auck91ubYmylJDAIgUF-17" target="O2topo-qdoDveBcOhk3U-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="580" />
+              <mxPoint x="160" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Auck91ubYmylJDAIgUF-17" value="Affichage taux d&#39;humidité sur LCD" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9Auck91ubYmylJDAIgUF-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9Auck91ubYmylJDAIgUF-32" target="9Auck91ubYmylJDAIgUF-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="665" />
+              <mxPoint x="670" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Auck91ubYmylJDAIgUF-35" value="NON" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9Auck91ubYmylJDAIgUF-34" vertex="1" connectable="0">
+          <mxGeometry x="0.1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Auck91ubYmylJDAIgUF-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9Auck91ubYmylJDAIgUF-32" target="9Auck91ubYmylJDAIgUF-42" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="665" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Auck91ubYmylJDAIgUF-41" value="OUI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9Auck91ubYmylJDAIgUF-39" vertex="1" connectable="0">
+          <mxGeometry x="-0.2198" relative="1" as="geometry">
+            <mxPoint x="-3" y="45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Auck91ubYmylJDAIgUF-32" value="Niveau d&#39;humidité d&#39;une des plantes trop bas?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="456.25" y="600" width="167.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9Auck91ubYmylJDAIgUF-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9Auck91ubYmylJDAIgUF-42" target="9Auck91ubYmylJDAIgUF-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Auck91ubYmylJDAIgUF-49" value="NON" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9Auck91ubYmylJDAIgUF-48" vertex="1" connectable="0">
+          <mxGeometry x="-0.3143" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2topo-qdoDveBcOhk3U-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Auck91ubYmylJDAIgUF-42" target="O2topo-qdoDveBcOhk3U-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Auck91ubYmylJDAIgUF-42" value="Heure d&#39;arrosage&amp;nbsp;&lt;br&gt;depassé?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="770" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O2topo-qdoDveBcOhk3U-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Auck91ubYmylJDAIgUF-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Auck91ubYmylJDAIgUF-43" value="Active pompe de plante correspondante pendant 3s" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Auck91ubYmylJDAIgUF-46" value="Signale sur LCD que la plante correspondante n&#39;a pas assez d&#39;eau" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O2topo-qdoDveBcOhk3U-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="O2topo-qdoDveBcOhk3U-2" target="O2topo-qdoDveBcOhk3U-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2topo-qdoDveBcOhk3U-9" value="OUI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="O2topo-qdoDveBcOhk3U-5">
+          <mxGeometry x="-0.48" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2topo-qdoDveBcOhk3U-2" value="Boutons &lt;br&gt;de commande actifs?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="620" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O2topo-qdoDveBcOhk3U-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O2topo-qdoDveBcOhk3U-4" target="O2topo-qdoDveBcOhk3U-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O2topo-qdoDveBcOhk3U-4" value="Changement de programme d&#39;arrosage des plantes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O2topo-qdoDveBcOhk3U-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O2topo-qdoDveBcOhk3U-7" target="O2topo-qdoDveBcOhk3U-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2topo-qdoDveBcOhk3U-7" value="Configure l&#39;heure d&#39;arrosage et sauvegarde en memoire" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O2topo-qdoDveBcOhk3U-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O2topo-qdoDveBcOhk3U-13" target="9Auck91ubYmylJDAIgUF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O2topo-qdoDveBcOhk3U-13" value="Eteint led etat, flag eau ok = 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O2topo-qdoDveBcOhk3U-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="O2topo-qdoDveBcOhk3U-17" target="9Auck91ubYmylJDAIgUF-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2topo-qdoDveBcOhk3U-23" value="OUI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="O2topo-qdoDveBcOhk3U-22">
+          <mxGeometry x="0.212" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2topo-qdoDveBcOhk3U-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O2topo-qdoDveBcOhk3U-17" target="9Auck91ubYmylJDAIgUF-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="879.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="880" />
+              <mxPoint x="700" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O2topo-qdoDveBcOhk3U-17" value="flag eau &lt;br&gt;ok = 1?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="840" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
